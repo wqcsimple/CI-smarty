@@ -1,19 +1,19 @@
-<?php /* Smarty version Smarty-3.0.7, created on 2015-01-05 17:34:21
+<?php /* Smarty version Smarty-3.0.7, created on 2015-01-05 17:51:02
          compiled from "application/views/admin/index/index.php" */ ?>
-<?php /*%%SmartyHeaderCode:209547260054aa5855693c17-67865188%%*/if(!defined('SMARTY_DIR')) exit('no direct access allowed');
+<?php /*%%SmartyHeaderCode:148675853154aa5e86924115-37344336%%*/if(!defined('SMARTY_DIR')) exit('no direct access allowed');
 $_smarty_tpl->decodeProperties(array (
   'file_dependency' => 
   array (
     'cffe3a0d93af01ff4b4e9f9bed040607ec10b268' => 
     array (
       0 => 'application/views/admin/index/index.php',
-      1 => 1420449876,
+      1 => 1420451461,
       2 => 'file',
     ),
     'ea015f22dccd638180555c4fdfc3380e31cc3b4c' => 
     array (
       0 => 'application/views/admin/base/menu.php',
-      1 => 1420450461,
+      1 => 1420450579,
       2 => 'file',
     ),
     '992e9b942f559de575c0e7e8e4204e28b5552613' => 
@@ -29,7 +29,7 @@ $_smarty_tpl->decodeProperties(array (
       2 => 'file',
     ),
   ),
-  'nocache_hash' => '209547260054aa5855693c17-67865188',
+  'nocache_hash' => '148675853154aa5e86924115-37344336',
   'function' => 
   array (
   ),
@@ -190,6 +190,67 @@ $_smarty_tpl->decodeProperties(array (
 </h1>
   </div>
 </div>
+
+<div class="row">
+	<div class="col-xs-12 col-md-6 col-lg-3">
+		<div class="panel panel-blue panel-widget">
+			<div class="col-sm-3 col-lg-5 widget-left">
+				<em class="glyphicon glyphicon-edit glyphicon-l"></em>
+			</div>
+			<div class="col-sm-9 col-lg-7 widget-right">
+				<div class="large">120</div>
+				<div class="text-muted">New Articles</div>
+			</div>
+		</div>
+	</div>
+
+	<div class="col-xs-12 col-md-6 col-lg-3">
+				<div class="panel panel-orange panel-widget">
+					<div class="row no-padding">
+						<div class="col-sm-3 col-lg-5 widget-left">
+							<em class="glyphicon glyphicon-comment glyphicon-l"></em>
+						</div>
+						<div class="col-sm-9 col-lg-7 widget-right">
+							<div class="large">52</div>
+							<div class="text-muted">Comments</div>
+						</div>
+					</div>
+				</div>
+			</div>
+
+	<div class="col-xs-12 col-md-6 col-lg-3">
+				<div class="panel panel-teal panel-widget">
+					<div class="row no-padding">
+						<div class="col-sm-3 col-lg-5 widget-left">
+							<em class="glyphicon glyphicon-user glyphicon-l"></em>
+						</div>
+						<div class="col-sm-9 col-lg-7 widget-right">
+							<div class="large">24</div>
+							<div class="text-muted">New Users</div>
+						</div>
+					</div>
+				</div>
+			</div>
+
+	<div class="col-xs-12 col-md-6 col-lg-3">
+				<div class="panel panel-red panel-widget">
+					<div class="row no-padding">
+						<div class="col-sm-3 col-lg-5 widget-left">
+							<em class="glyphicon glyphicon-stats glyphicon-l"></em>
+						</div>
+						<div class="col-sm-9 col-lg-7 widget-right">
+							<div class="large">25.2k</div>
+							<div class="text-muted">Visitors</div>
+						</div>
+					</div>
+				</div>
+			</div>
+
+</div>
+
+
+
+
 
 <div class="row">
 	<div class="col-md-6">
