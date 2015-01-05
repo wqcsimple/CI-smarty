@@ -79,7 +79,8 @@
 			</li>
 		
 		</ul>
-		<div class="attribution">Template by <a href="whis.fayfox">whis_wqc</a></div>
+	
+		<div class="attribution"><code>执行时间:{elapsed_time}s 内存消耗:{memory_usage}</code></div>
 	</div><!--/.sidebar-->
 
 <!--{/block}-->

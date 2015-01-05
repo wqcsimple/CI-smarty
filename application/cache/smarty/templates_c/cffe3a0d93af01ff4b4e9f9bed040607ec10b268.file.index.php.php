@@ -1,4 +1,4 @@
-<?php /* Smarty version Smarty-3.0.7, created on 2015-01-05 17:24:37
+<?php /* Smarty version Smarty-3.0.7, created on 2015-01-05 17:34:21
          compiled from "application/views/admin/index/index.php" */ ?>
 <?php /*%%SmartyHeaderCode:209547260054aa5855693c17-67865188%%*/if(!defined('SMARTY_DIR')) exit('no direct access allowed');
 $_smarty_tpl->decodeProperties(array (
@@ -13,7 +13,7 @@ $_smarty_tpl->decodeProperties(array (
     'ea015f22dccd638180555c4fdfc3380e31cc3b4c' => 
     array (
       0 => 'application/views/admin/base/menu.php',
-      1 => 1420436663,
+      1 => 1420450461,
       2 => 'file',
     ),
     '992e9b942f559de575c0e7e8e4204e28b5552613' => 
@@ -164,7 +164,8 @@ $_smarty_tpl->decodeProperties(array (
 			</li>
 		
 		</ul>
-		<div class="attribution">Template by <a href="whis.fayfox">whis_wqc</a></div>
+	
+		<div class="attribution"><code>执行时间:{elapsed_time}s 内存消耗:{memory_usage}</code></div>
 	</div><!--/.sidebar-->
 
  
