@@ -1,13 +1,13 @@
-<?php /* Smarty version Smarty-3.0.7, created on 2015-01-06 17:04:45
-         compiled from "application/views/admin/index/index.php" */ ?>
-<?php /*%%SmartyHeaderCode:142614171754aba437a18f57-91295685%%*/if(!defined('SMARTY_DIR')) exit('no direct access allowed');
+<?php /* Smarty version Smarty-3.0.7, created on 2015-01-06 17:22:36
+         compiled from "application/views/admin/user/user.php" */ ?>
+<?php /*%%SmartyHeaderCode:205704236854aba95c4c5d41-74991680%%*/if(!defined('SMARTY_DIR')) exit('no direct access allowed');
 $_smarty_tpl->decodeProperties(array (
   'file_dependency' => 
   array (
-    'cffe3a0d93af01ff4b4e9f9bed040607ec10b268' => 
+    '3e3f82156131b4c354018e7600b31a923d1430ea' => 
     array (
-      0 => 'application/views/admin/index/index.php',
-      1 => 1420534800,
+      0 => 'application/views/admin/user/user.php',
+      1 => 1420536155,
       2 => 'file',
     ),
     'ea015f22dccd638180555c4fdfc3380e31cc3b4c' => 
@@ -25,11 +25,11 @@ $_smarty_tpl->decodeProperties(array (
     '051b76758c39e0b7d4b54d96768a324e7a84a9bf' => 
     array (
       0 => 'application/views/admin/base/base.php',
-      1 => 1420525430,
+      1 => 1420536143,
       2 => 'file',
     ),
   ),
-  'nocache_hash' => '142614171754aba437a18f57-91295685',
+  'nocache_hash' => '205704236854aba95c4c5d41-74991680',
   'function' => 
   array (
   ),
@@ -44,7 +44,7 @@ $_smarty_tpl->decodeProperties(array (
 |后台</title>
 
 <link href="<?php echo base_url('static/admin');?>
-/css/bootstrap.min.css" rel="stylesheet">
+/css/bootstrap.css" rel="stylesheet">
 <link href="<?php echo base_url('static/admin');?>
 /css/styles.css" rel="stylesheet">
 <!--[if lt IE 9]>
@@ -177,6 +177,7 @@ $_smarty_tpl->decodeProperties(array (
 <div class="row">
   <ol class="breadcrumb">
     <li><a href=""><span class="glyphicon glyphicon-home"></span></a></li>
+    <li>用户管理</li>
     <li class="active"><?php echo $_smarty_tpl->getVariable('title')->value;?>
 </li>
   </ol>
@@ -190,123 +191,85 @@ $_smarty_tpl->decodeProperties(array (
 </div>
 
 <div class="row">
-	<div class="col-xs-12 col-md-6 col-lg-3">
-		<div class="panel panel-blue panel-widget">
-			<div class="col-sm-3 col-lg-5 widget-left">
-				<em class="glyphicon glyphicon-edit glyphicon-l"></em>
-			</div>
-			<div class="col-sm-9 col-lg-7 widget-right">
-				<div class="large">120</div>
-				<div class="text-muted">New Articles</div>
-			</div>
-		</div>
+	<div class="col-md-12">
+	<table class="table table-hover">
+		<thead>
+			<tr>
+				<th>登录名</th>
+				<th>角色</th>
+				<th>手机</th>
+				<th>邮箱</th>
+				<th>注册时间</th>
+			</tr>
+		</thead>
+		<tbody>
+			<tr>
+				<td>admin</td>
+				<td>admin</td>
+				<td>18258029748</td>
+				<td>wqcsimple@foxmail.com</td>
+				<td>2014-12-05</td>
+			</tr>
+			<tr>
+				<td>admin</td>
+				<td>admin</td>
+				<td>18258029748</td>
+				<td>wqcsimple@foxmail.com</td>
+				<td>2014-12-05</td>
+			</tr>
+			<tr>
+				<td>admin</td>
+				<td>admin</td>
+				<td>18258029748</td>
+				<td>wqcsimple@foxmail.com</td>
+				<td>2014-12-05</td>
+			</tr>
+			<tr>
+				<td>admin</td>
+				<td>admin</td>
+				<td>18258029748</td>
+				<td>wqcsimple@foxmail.com</td>
+				<td>2014-12-05</td>
+			</tr>
+			<tr>
+				<td>admin</td>
+				<td>admin</td>
+				<td>18258029748</td>
+				<td>wqcsimple@foxmail.com</td>
+				<td>2014-12-05</td>
+			</tr>
+			<tr>
+				<td>admin</td>
+				<td>admin</td>
+				<td>18258029748</td>
+				<td>wqcsimple@foxmail.com</td>
+				<td>2014-12-05</td>
+			</tr>
+		</tbody>
+		<thead>
+			<tr>
+				<th>登录名</th>
+				<th>角色</th>
+				<th>手机</th>
+				<th>邮箱</th>
+				<th>注册时间</th>
+			</tr>
+		</thead>
+	</table>
+	<nav>
+	  <ul class="pagination pull-right">
+	    <li><a href="#">&laquo;</a></li>
+	    <li><a href="#">1</a></li>
+	    <li><a href="#">2</a></li>
+	    <li><a href="#">3</a></li>
+	    <li><a href="#">4</a></li>
+	    <li><a href="#">5</a></li>
+	    <li><a href="#">&raquo;</a></li>
+	  </ul>
+	</nav>
 	</div>
-
-	<div class="col-xs-12 col-md-6 col-lg-3">
-				<div class="panel panel-orange panel-widget">
-					<div class="row no-padding">
-						<div class="col-sm-3 col-lg-5 widget-left">
-							<em class="glyphicon glyphicon-comment glyphicon-l"></em>
-						</div>
-						<div class="col-sm-9 col-lg-7 widget-right">
-							<div class="large">52</div>
-							<div class="text-muted">Comments</div>
-						</div>
-					</div>
-				</div>
-			</div>
-
-	<div class="col-xs-12 col-md-6 col-lg-3">
-				<div class="panel panel-teal panel-widget">
-					<div class="row no-padding">
-						<div class="col-sm-3 col-lg-5 widget-left">
-							<em class="glyphicon glyphicon-user glyphicon-l"></em>
-						</div>
-						<div class="col-sm-9 col-lg-7 widget-right">
-							<div class="large">24</div>
-							<div class="text-muted">New Users</div>
-						</div>
-					</div>
-				</div>
-			</div>
-
-	<div class="col-xs-12 col-md-6 col-lg-3">
-				<div class="panel panel-red panel-widget">
-					<div class="row no-padding">
-						<div class="col-sm-3 col-lg-5 widget-left">
-							<em class="glyphicon glyphicon-stats glyphicon-l"></em>
-						</div>
-						<div class="col-sm-9 col-lg-7 widget-right">
-							<div class="large">25.2k</div>
-							<div class="text-muted">Visitors</div>
-						</div>
-					</div>
-				</div>
-			</div>
-
 </div>
 
-
-
-
-
-<div class="row">
-	<div class="col-md-6">
-		<div class="panel panel-default">
-			<div class="panel-heading">当前用户信息</div>
-			<div class="panel-body">
-				<table class="table table-bordered">
-					<tbody>
-						<tr>
-							<th>用户身份</th>
-							<td></td>
-						</tr>
-						<tr>
-							<th>上次登陆时间</th>
-							<td></td>
-						</tr>
-						<tr>
-							<th>上次登陆IP</th>
-							<td></td>
-						</tr>
-						<tr>
-							<th>当前登陆IP</th>
-							<td></td>
-						</tr>
-					</tbody>
-				</table>
-			</div>
-		</div>
-	</div>
-
-	<div class="col-md-6 ">
-		<div class="panel panel-default">
-			<div class="panel-heading">系统检测</div>
-			<div class="panel-body">
-			<table class="table table-bordered">
-					<tbody>
-						<tr>
-							<th>操作系统</th>
-							<td></td>
-						</tr>
-						<tr>
-							<th>PHP版本</th>
-							<td></td>
-						</tr>
-						<tr>
-							<th>MySQL</th>
-							<td></td>
-						</tr>
-						<tr>
-							<th>文件上传</th>
-							<td></td>
-						</tr>
-					</tbody>
-				</table>
-		</div>
-		</div>
-		
-	</div>
 </div>
 
 		

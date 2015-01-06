@@ -5,7 +5,7 @@
 <meta name="viewport" content="width=device-width, initial-scale=1">
 <title><!--{$title}-->|后台</title>
 
-<link href="<!--{base_url('static/admin')}-->/css/bootstrap.min.css" rel="stylesheet">
+<link href="<!--{base_url('static/admin')}-->/css/bootstrap.css" rel="stylesheet">
 <link href="<!--{base_url('static/admin')}-->/css/styles.css" rel="stylesheet">
 <!--{block name="link_css"}--><!--{/block}-->
 <!--[if lt IE 9]>

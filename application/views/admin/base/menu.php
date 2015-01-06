@@ -11,24 +11,20 @@
 		  <li><a href="<!--{site_url('admin/main/index')}-->"><span class="glyphicon glyphicon-dashboard"></span>控制台</a></li>	
 			<li class="parent ">
 				<a href="#sub-item-1" data-toggle="collapse">
-					<span class="glyphicon glyphicon-cog"></span> Dropdown <span  class="icon pull-right"><em class="caret"></em></span> 
+					<span class="glyphicon glyphicon-user"></span> 用户管理 <span  class="icon pull-right"><em class="caret"></em></span> 
 				</a>
 				<ul class="children collapse" id="sub-item-1">
 					<li>
-						<a class="" href="#">
-							<span class="glyphicon glyphicon-share-alt"></span> Sub Item 1
+						<a class="" href="<!--{site_url('admin/user')}-->">
+							<span class="glyphicon glyphicon-share-alt"></span> 所有用户
 						</a>
 					</li>
 					<li>
-						<a class="" href="#">
-							<span class="glyphicon glyphicon-share-alt"></span> Sub Item 2
+						<a class="" href="<!--{site_url('admin/user/add')}-->">
+							<span class="glyphicon glyphicon-share-alt"></span> 添加用户
 						</a>
 					</li>
-					<li>
-						<a class="" href="#">
-							<span class="glyphicon glyphicon-share-alt"></span> Sub Item 3
-						</a>
-					</li>
+					
 				</ul>
 			</li>
 
