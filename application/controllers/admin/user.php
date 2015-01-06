@@ -13,4 +13,11 @@ class User extends Admin_Controller{
 			);
 		$this->smartyview->render('admin/user/user.php',$data);
 	}
+
+	public function add(){
+		$data = array(
+				'title' => '添加用户',
+			);
+		$this->smartyview->render('admin/user/add.php',$data);
+	}
 }
